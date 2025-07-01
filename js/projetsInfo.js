@@ -7,7 +7,7 @@ const projects = [
     live: "https://noon-3ab7alim-888.vercel.app/"
   },
   {
-    image: "./Images/fakeboos.png",
+    image: "./Images/Fakeboos.png",
     title: "Fakeboos",
     desc: "Social App Built Using Next , TypeScript and Mui",
     code: "https://github.com/MohamedAbdalhalem/fakeboos",

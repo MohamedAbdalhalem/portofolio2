@@ -36,7 +36,7 @@ for (const project of projects) {
     str += `
     <div class="d-flex justify-content-center align-items-center">
     <div class="card mx-auto text-white shadow-lg p-3  rounded-4 border border-secondary">
-    <img src=${project.image} class="card-img-top rounded-3" alt="Noon 3ab7alim" >
+    <img src=${project.image} class="card-img-top rounded-3" alt=${project.title} >
     <div class="card-body">
       <h5 class="card-title fw-bold text-white">${project.title}</h5>
       <p class="card-text  mb-3 text-white-50">
