@@ -53,3 +53,19 @@ for (const project of projects) {
 }
 $('.slider').html(str)
 $('.slider').slick();
+
+const form = document.getElementById("my-form");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value;
+    
+    const message = document.getElementById("message").value;
+
+    const subject = `Message from ${name}`;
+    const body = `${message}`;
+
+    // ده بيحولك لصفحة إنشاء رسالة جديدة في Gmail
+    window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=mohamed3ab7alem@gmail.com&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  });

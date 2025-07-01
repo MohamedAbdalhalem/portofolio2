@@ -153,18 +153,12 @@
   
      <div class="col-lg-6">
        <h3 class="fs-3 fw-semibold mb-4">Send a Message</h3>
-       <form>
+       <form id="my-form" >
          <div class="mb-3">
-           <input type="text" placeholder="Your Name" class="form-control bg-transparent text-white border border-secondary" />
+           <input id="name" type="text" placeholder="Your Name" class="form-control bg-transparent text-white border border-secondary" />
          </div>
          <div class="mb-3">
-           <input type="email" placeholder="Your Email" class="form-control bg-transparent text-white border border-secondary" />
-         </div>
-         <div class="mb-3">
-           <input type="text" placeholder="Subject" class="form-control bg-transparent text-white border border-secondary" />
-         </div>
-         <div class="mb-3">
-           <textarea rows="4" placeholder="Leave a comment..." class="form-control bg-transparent text-white border border-secondary"></textarea>
+           <textarea id="message" rows="4" placeholder="Message..." class="form-control bg-transparent text-white border border-secondary"></textarea>
          </div>
          <button type="submit" class="btn btn-outline-light w-100 py-3 fs-5 fw-bold">
            Send Message
