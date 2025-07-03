@@ -1,5 +1,5 @@
 import projects from './projetsInfo.js';
-
+AOS.init();
 const x = $('#about').offset().top
 $(window).scroll(function () {
     if ($(window).scrollTop() > 100) {
