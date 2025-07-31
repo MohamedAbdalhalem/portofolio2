@@ -7,6 +7,13 @@ const projects = [
     live: "https://noon-3ab7alim-888.vercel.app/"
   },
   {
+    image: "./Images/RotanaCinema.png",
+    title: "Rotana Cinema",
+    desc: "Movies&TvShows Application Built Using React , TypeScript , Tailwind CSS and Flowbite React",
+    code: "https://github.com/MohamedAbdalhalem/rotana-cinema",
+    live: "https://rotana-cinema-rose.vercel.app/"
+  },
+  {
     image: "./Images/Fakeboos.png",
     title: "Fakeboos",
     desc: "Social App Built Using Next , TypeScript and Mui",
@@ -26,6 +33,13 @@ const projects = [
     desc: "Notes App Built Using React , TypeScript , Tailwind CSS",
     code: "https://github.com/MohamedAbdalhalem/notta",
     live: "https://notta-black.vercel.app"
+  },
+  {
+    image: "./Images/FakeStore.png",
+    title: "Fake Store",
+    desc: "Fake Store App Built Using React , TypeScript , Tailwind CSS and Flowbite React",
+    code: "https://github.com/MohamedAbdalhalem/Fake-Store",
+    live: "https://fake-store-indol-nine.vercel.app/"
   },
   {
     image: "./Images/Meals.png",
